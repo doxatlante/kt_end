@@ -1,0 +1,348 @@
+.body {
+    width: 2500px;
+}
+
+.first-block {
+    height: 130px;
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(backgrlogo.png);
+}
+
+.first-case {
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+}
+
+.second-case {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.three-case {
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+}
+
+.second-block {
+    width: auto;
+    height: 1084px;
+}
+.mainvideo {
+    width: 2543px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.mainvideo {
+    position: relative;
+}
+
+.mainvideo video {
+    position: relative;
+    z-index: 0;
+}
+.fistt-case { 
+    position:relative;
+}
+.fistt-case video { 
+    position:relative; z-index:0;
+}
+
+.overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    pointer-events: auto;
+    width: 1000px;
+    position: fixed;
+    margin-left: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.three-block {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.maintextupdate {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.firsttt-case {
+    padding-left: 200px;
+}
+
+.display-one-two-case {
+    display: flex;
+    padding-top: 10px;
+}
+
+.seconddd-case {
+    padding-left: 50px;
+    padding-top: 250px;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.threee-case {
+    padding-left: 50px;
+    padding-top: 300px;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+.display-two-three-case {
+    display: flex;
+}
+
+.firts4-case {
+    padding-left: 500px;
+    padding-top: 250px;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.second4-case {
+    padding-left: 500px;
+}
+
+.display-one1-two2-case {
+    display: flex;
+}
+.five-block{
+    padding-bottom: 30px;
+}
+
+.first5-case {
+    padding-left: 200px;
+}
+
+.second5-case {
+    padding-left: 200px;
+    padding-top: 230px;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+.six6-block{
+    background-color: black;
+}
+
+.second6-case {
+    padding-left: 750px;
+    padding-right: 750px;
+    padding-bottom: 50px;
+}
+.heroes {
+    text-align: center;
+    font-size: 62px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.carousel-item{
+    width: 1000px;
+    height: 500px;
+}
+* {
+    box-sizing: border-box;
+}
+.seven7-block{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    grid-template-rows: auto;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+.special-offer {
+    order: -1;
+}
+
+.eight-block {
+    background-image: url(backgrjoin.png);
+    height: 300px;
+}
+
+.first8-case {
+
+}
+
+.display-one8-two8-case {
+    display: flex;
+}
+
+.join {
+    padding-top: 50px;
+    padding-left: 1000px;
+    font-size: 62px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.second8-case {
+    border: 3px solid #ffffff50;
+    padding: 15px 5px;
+    margin: 50px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    transition-duration: .2s;
+}
+
+.button-join {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.nine9-block {
+    width: auto;
+    height: 250px;
+    background-image: url(backgrend.png);
+}
+
+.first9-case {
+    padding-left: 120px;
+    padding-top: 110px;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: "Reaver", serif;
+    letter-spacing: 5px;
+    font-weight: 150;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+}
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+@media (max-width: 1200px) {
+    .body {
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .body {
+    
+    }
+}
+@media (max-width: 568px) {
+    .body {
+    
+    }
+}
+@media (max-width: 368px) {
+    .body {
+    
+    }
+}
