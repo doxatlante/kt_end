@@ -29,10 +29,11 @@
 
 .second-block {
     width: auto;
-    height: 1084px;
+    height: auto;
 }
 .mainvideo {
-    width: 2543px;
+    /* width: 2543px; */
+    width: 100%;
     object-fit: cover;
     top: 0;
     left: 0;
@@ -60,13 +61,13 @@
     justify-content: center;
     align-content: flex-end;
     pointer-events: auto;
-    width: 1000px;
+    width: 55%;
     position: fixed;
     margin-left: 100px;
     top: 0;
     left: 0;
     z-index: 1;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 120%;
     font-family: "Reaver", serif;
     letter-spacing: 5px;
@@ -78,7 +79,7 @@
 
 .three-block {
     padding-top: 10px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     padding-bottom: 50px;
 }
 
@@ -94,17 +95,21 @@
 }
 
 .firsttt-case {
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
 
 .display-one-two-case {
     display: flex;
     padding-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .seconddd-case {
-    padding-left: 50px;
-    padding-top: 250px;
+    /* padding-left: 50px; */
+    /* padding-top: 250px; */
+    width: 34%;
     font-size: 30px;
     line-height: 120%;
     font-family: "Reaver", serif;
@@ -113,6 +118,7 @@
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     text-shadow: 0px 0px 20px #000;
+    /* gap: 20px; */
 }
 
 .threee-case {
@@ -176,8 +182,8 @@
 }
 
 .second6-case {
-    padding-left: 750px;
-    padding-right: 750px;
+    /* padding-left: 750px; */
+    /* padding-right: 750px; */
     padding-bottom: 50px;
 }
 .heroes {
@@ -193,8 +199,8 @@
 }
 
 .carousel-item{
-    width: 1000px;
-    height: 500px;
+    /* width: 1000px; */
+    /* height: 500px; */
 }
 * {
     box-sizing: border-box;
@@ -257,11 +263,14 @@
 
 .display-one8-two8-case {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .join {
     padding-top: 50px;
-    padding-left: 1000px;
+    display: flex;
+    /* padding-left: 1000px; */
     font-size: 62px;
     line-height: 120%;
     font-family: "Reaver", serif;
@@ -270,6 +279,7 @@
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-shadow: 0px 0px 20px #000;
+    /* align-items: center; */
 }
 
 .second8-case {
@@ -345,4 +355,11 @@
     .body {
     
     }
+}
+
+img {}
+.carousel {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
 }
